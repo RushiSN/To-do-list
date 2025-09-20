@@ -1,71 +1,77 @@
-# Foodie - Delicious Food Delivered
+# 📝 Animated To-Do List
 
-Foodie is a modern, responsive food delivery web application that lets users browse, filter, search, and order from a variety of delicious dishes. The project features a clean design, smooth user interactions, and a simple cart/checkout experience using only HTML, CSS, and JavaScript.
+A sleek and animated To-Do List web application to help you stay organized and productive! Add, edit, filter, and manage your daily tasks with a beautiful responsive UI and smooth animations—all in a single HTML, CSS, and JavaScript app.
 
-## Features
+---
 
-- **Modern UI:** Clean, vibrant, and fully responsive design.
-- **Browse Menu:** View a range of food items with categories like Pizza, Burgers, Sushi, Pasta, Desserts, and Drinks.
-- **Search & Filter:** Quickly find dishes or filter by categories.
-- **Cart Management:** Add, remove, and update items in your cart.
-- **Order Checkout:** Simple checkout modal for placing orders.
-- **Smooth User Experience:** Animated transitions, notifications, and smooth scrolling.
-- **Mobile Friendly:** Works seamlessly on desktop, tablet, and mobile devices.
+## ✨ Features
 
-## Demo
+- **Add Tasks:** Quickly add new tasks with the input bar.
+- **Edit Tasks:** Click on any task to edit it inline with multi-line support.
+- **Mark Complete:** Click the checkbox to mark tasks as completed or pending.
+- **Delete Tasks:** Remove individual tasks or clear all tasks at once.
+- **Animated UI:** Smooth transitions for adding, removing, and editing tasks.
+- **Filter Tasks:** Switch between All, Pending, and Completed views.
+- **Stats:** See total, completed, and pending task counts in real-time.
+- **Persistent Storage:** Tasks are saved in your browser’s localStorage.
+- **Mobile Friendly:** Fully responsive and touch-friendly design.
+- **Keyboard Shortcuts:**  
+  - <kbd>Enter</kbd>: Add new task or new line when editing  
+  - <kbd>Ctrl+Enter</kbd> (or <kbd>Cmd+Enter</kbd>): Save edited task  
+  - <kbd>Esc</kbd>: Cancel editing
 
-![Foodie Demo Screenshot](demo-screenshot.png)
+---
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
-
-- A modern web browser (Chrome, Firefox, Edge, Safari).
-- No backend or server setup required.
-
-### Installation
-
-1. **Clone the repository:**
+1. **Clone or Download the Repository**
    ```bash
-   git clone https://github.com/RushiSN/Foodie.git
-   cd Foodie
+   git clone https://github.com/your-username/animated-todo-list.git
+   cd animated-todo-list
    ```
 
-2. **Open `index.html` in your browser:**
-   - Double-click `index.html`, OR
-   - Run a simple local server:
+2. **Open `index.html` in Your Browser**
+   - Double-click `index.html`  
+   *OR*  
+   - Serve with a simple local server:
      ```bash
-     # Python 3
+     # Using Python 3
      python -m http.server
-     # Then visit http://localhost:8000
+     # Visit http://localhost:8000 in your browser
      ```
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 ```
 .
-├── index.html      # Main HTML file
-├── style.css       # Stylesheet
-├── script.js       # JavaScript logic
-└── README.md       # Project documentation
+├── index.html      # Main HTML structure
+├── style.css       # Application styles and animations
+├── script.js       # Functionality and logic
+└── README.md       # This documentation
 ```
 
-## Customization
+---
 
-- **Add More Dishes:** Edit the `foodItems` array in `script.js` to add, remove, or modify food items.
-- **Change Categories:** Update the category cards in `index.html` and data in `script.js`.
-- **Styling:** Tweak `style.css` for colors, fonts, layout, or animation changes.
+## 🛠️ Customization
 
-## Credits
+- **Change Default Theme:** Edit gradients and colors in `style.css`.
+- **Increase Task Limit:** Adjust the `maxlength` attribute in the `<input>` in `index.html`.
+- **Add More Features:** You can enhance it with due dates, notifications, or sync with external storage.
 
-- Emoji icons from [Unicode Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html)
-- Fonts via system defaults
-- No frameworks or external libraries used
+---
 
-## License
+## 📸 Screenshots
+
+> _Add screenshots here if needed!_
+
+---
+
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Made by [RushiSN](https://github.com/RushiSN)**
+**Made with ❤️ by [Your Name]**
