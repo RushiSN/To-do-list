@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">📝 To-Do List</h1>
+            <p class="subtitle">Stay organized and get things done!</p>
+        </div>
+
+        <div class="input-container">
+            <input 
+                type="text" 
+                class="todo-input" 
+                placeholder="Add a new task..." 
+                id="todoInput"
+                maxlength="100"
+            >
+            <button class="add-btn" id="addBtn">+</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number" id="totalTasks">0</div>
+                <div class="stat-label">Total</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="completedTasks">0</div>
+                <div class="stat-label">Completed</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="pendingTasks">0</div>
+                <div class="stat-label">Pending</div>
+            </div>
+        </div>
+
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+
+        <div class="todos-container" id="todosContainer">
+            <div class="empty-state" id="emptyState">
+                <div class="empty-icon">🎯</div>
+                <h3>No tasks yet!</h3>
+                <p>Add your first task above to get started.</p>
+            </div>
+        </div>
+
+        <button class="clear-all-btn" id="clearAllBtn" style="display: none;">
+            🗑️ Clear All Tasks
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
