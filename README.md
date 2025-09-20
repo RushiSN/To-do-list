@@ -62,16 +62,4 @@ A sleek and animated To-Do List web application to help you stay organized and p
 
 ---
 
-## 📸 Screenshots
-
-> _Add screenshots here if needed!_
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Rushikesh Naik]**
